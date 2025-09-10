@@ -8,3 +8,4 @@ enable - 관리자 모드로 진입
   ip address <IP주소> <서브넷> - IP 주소와 서브넷마스크 설정
   no shutdown - 인터페이스 활성화
   hostname <이름> - host이름 변경
+  show interface - 인터페이스 정보를 확인
