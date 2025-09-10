@@ -10,4 +10,4 @@ enable - 관리자 모드로 진입
   hostname <이름> - host이름 변경
   show interface - 인터페이스 정보를 확인
   show ? - show 명령어 뒤에 올 수 있는 세부 옵션 목록을 보여줌
-  ' ' - 스페이스바는 more부분을 더 볼 수 있게 만들어줌
+  ' ' or Enter - 스페이스바와 Enter는 more부분을 더 볼 수 있게 만들어줌
