@@ -1,0 +1,7 @@
+# Router관련
+enable - 관리자 모드로 진입
+configure terminal - 전역 설정 모드로 전환
+interface fastethernet 0/0 - FastEthernet 0/0 인터페이스 진입
+ip address <IP주소> <서브넷> - IP 주소와 서브넷마스크 설정
+no shutdown - 인터페이스 활성화
+copy r s - 설정 저장
