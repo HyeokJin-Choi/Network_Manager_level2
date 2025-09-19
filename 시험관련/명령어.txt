@@ -3,7 +3,7 @@
 
 copy r s - 설정 저장
 
-enable - 관리자 모드로 진입
+enable - 관리자 모드로 진입 (사용자모드(User Mode)에서 관리자모드(Privileged Mode)로 전환)
   configure terminal - 전역 설정 모드로 전환
   interface fastethernet 0/0 - FastEthernet 0/0 인터페이스 진입
   ip address <IP주소> <서브넷> - IP 주소와 서브넷마스크 설정
@@ -13,3 +13,4 @@ enable - 관리자 모드로 진입
   show ? - show 명령어 뒤에 올 수 있는 세부 옵션 목록을 보여줌
   ' ' or Enter - 스페이스바와 Enter는 more부분을 더 볼 수 있게 만들어줌
   ?를 사용하면 그와 관련된 하위 명령어들을 더 보여줌.
+  
