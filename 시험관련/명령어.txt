@@ -15,3 +15,10 @@ enable - 관리자 모드로 진입 (사용자모드(User Mode)에서 관리자�
   ' ' or Enter - 스페이스바와 Enter는 more부분을 더 볼 수 있게 만들어줌
   ?를 사용하면 그와 관련된 하위 명령어들을 더 보여줌.
   show running-config - 지금 장비가 동작하는 데 사용 중인 설정값을 보여줌
+
+
+✅ 비교 요약
+기능	명령어	마스크 종류	예시
+라우팅 프로토콜(OSPF/EIGRP) network	network [IP] [wildcard-mask] area [n]	와일드카드 마스크	network 192.168.1.0 0.0.0.255 area 0
+DHCP network	network [IP] [subnet-mask]	서브넷마스크	network 192.168.1.0 255.255.255.0
+인터페이스 IP 주소	ip address [IP] [subnet-mask]	서브넷마스크	ip address 192.168.1.1 255.255.255.0
