@@ -13,4 +13,4 @@ enable - 관리자 모드로 진입 (사용자모드(User Mode)에서 관리자�
   show ? - show 명령어 뒤에 올 수 있는 세부 옵션 목록을 보여줌
   ' ' or Enter - 스페이스바와 Enter는 more부분을 더 볼 수 있게 만들어줌
   ?를 사용하면 그와 관련된 하위 명령어들을 더 보여줌.
-  
+  show running-config - 지금 장비가 동작하는 데 사용 중인 설정값을 보여줌
