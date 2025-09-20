@@ -24,3 +24,11 @@ yum info 패키지명
 yum check-update
 
 --------------------------------------------------------
+*** IPSec에서 사용하는 용어***
+AH (Authentication Header) – 무결성·송신자 인증 제공
+
+ESP (Encapsulating Security Payload) – 암호화 + 인증으로 기밀성·무결성 제공
+
+IKE (Internet Key Exchange) – 보안 연결 설정 및 키 교환
+
+--------------------------------------------------------
